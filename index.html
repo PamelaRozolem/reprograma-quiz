@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QUIZ REPROGRAMA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/app.css" />
+    <link rel="icon" href="./favicon.png">
+
+</head>
+
+<body id="global">
+
+    <header>
+        <h1>Quiz Jedi da Programação</h1>
+        <p class="headerP">Neste quiz vamos ver se você é um Jedi na programação ou se é um noob.</p>
+    </header>
+
+    <section id="todasPerguntas">
+
+        <div id="primeiraPergunta">
+            <h3>1. O que significa a sigla HTML?</h3>
+            <p onclick="filtraRespostas(0,false)">A. Hyperlinks and Text Markup Language</p>
+            <p onclick="filtraRespostas(0,true)" id="respostaCorreta1">B. Hyper Text Markup Language</p>
+            <p onclick="filtraRespostas(0,false)">C. Home Tool Markup Language</p>
+        </div>
+        <hr>
+        <div id="segundaPergunta">
+            <h3>2. O que significa a sigla CSS?</h3>
+            <p onclick="filtraRespostas(1,false)">A. Creative Style Sheets</p>
+            <p onclick="filtraRespostas(1,true)" id="respostaCorreta2">B. Cascading Style Sheets</p>
+            <p onclick="filtraRespostas(1,false)">C. Colorful Style Sheets</p>
+        </div>
+        <hr>
+        <div id="terceiraPergunta">
+            <h3>3. Dentro de qual elemento HTML nós colocamos o JavaScript?</h3>
+            <p onclick="filtraRespostas(2,true)" id="respostaCorreta3">A. script </p>
+            <p onclick="filtraRespostas(2,false)">B. js </p>
+            <p onclick="filtraRespostas(2,false)">C. javascript</p>
+        </div>
+        <hr>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

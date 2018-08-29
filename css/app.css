@@ -1,0 +1,39 @@
+
+#global{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Roboto', sans-serif;
+}
+
+#todasPerguntas p:hover{
+    color:rgb(189, 74, 188);
+}
+
+#todasPerguntas p{
+    cursor: pointer;
+}
+
+h1{
+    margin-left: 60px;
+    color: rgb(189, 74, 188);
+}
+
+.headerP{
+    margin-right: 140px;
+}
+
+h3{
+    color: rgb(189, 74, 188);
+}
+
+p{
+    
+   color: rgb(74, 13, 156)
+}
+
+.resultado{
+    font-size: 30px;
+}
